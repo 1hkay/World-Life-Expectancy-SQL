@@ -32,7 +32,7 @@ ORDER BY Life_exp ASC
 
 SELECT 
 SUM(CASE WHEN GDP >= 1500 THEN 1 ELSE 0 END) High_GDP_count, 
-AVG(CASE WHEN GDP >= 1500 THEN `Life expectancy` ELSE NULL END) Hight_GDP_count,
+AVG(CASE WHEN GDP >= 1500 THEN `Life expectancy` ELSE NULL END) High_GDP_count,
 SUM(CASE WHEN GDP <= 1500 THEN 1 ELSE 0 END) Low_GDP_count, 
 AVG(CASE WHEN GDP <= 1500 THEN `Life expectancy` ELSE NULL END) low_GDP_count
 FROM world_life_expectancy
