@@ -1,0 +1,1 @@
+This repository contains SQL scripts for exploring and analyzing world life expectancy data. The project aims to provide insights into life expectancy trends, regional variations, and other relevant statistics based on the input dataset.
